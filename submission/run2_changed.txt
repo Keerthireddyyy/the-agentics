@@ -1,0 +1,341 @@
+(venv) PS C:\Users\keert\Downloads\agentic-starter-kits\crewai-kit> uv run python main.py "AI in healthcare"
+warning: `VIRTUAL_ENV=C:\Users\keert\Downloads\rag-qa-system\rag-qa-system\venv` does not match the project environment path `.venv` and will be ignored; use `--active` to target the active environment instead
+╭────────────────────────────────────────────── ✨ Update Available ✨ ──────────────────────────────────────────────╮
+│                                                                                                                    │
+│  A new version of CrewAI is available!                                                                             │
+│                                                                                                                    │
+│  Current version: 1.15.27                                                                                          │
+│  Latest version:  1.15.28                                                                                          │
+│                                                                                                                    │
+│  To update, run: uv sync --upgrade-package crewai                                                                  │
+│                                                                                                                    │
+╰────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭──────────────────────────────────────────── 🚀 Crew Execution Started ─────────────────────────────────────────────╮
+│                                                                                                                    │
+│  Crew Execution Started                                                                                            │
+│  Name: crew                                                                                                        │
+│  ID: cf44c082-443c-4e1b-85ba-b45eaeefe1a3                                                                          │
+│                                                                                                                    │
+│                                                                                                                    │
+╰────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭───────────────────────────────────────────────── 📋 Task Started ──────────────────────────────────────────────────╮
+│                                                                                                                    │
+│  Task Started                                                                                                      │
+│  Name: Research AI in healthcare. Provide exactly 5 key facts and exactly 2 open questions. Keep the research      │
+│  factual and concise.                                                                                              │
+│  ID: 6d3ef2ae-fa4a-435e-8bc3-fcce2a91665c                                                                          │
+│                                                                                                                    │
+│                                                                                                                    │
+╰────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭───────────────────────────────────────────────── 🤖 Agent Started ─────────────────────────────────────────────────╮
+│                                                                                                                    │
+│  Agent: Research Analyst                                                                                           │
+│                                                                                                                    │
+│  Task: Research AI in healthcare. Provide exactly 5 key facts and exactly 2 open questions. Keep the research      │
+│  factual and concise.                                                                                              │
+│                                                                                                                    │
+╰────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭────────────────────────────────────────────── ✅ Agent Final Answer ───────────────────────────────────────────────╮
+│                                                                                                                    │
+│  Agent: Research Analyst                                                                                           │
+│                                                                                                                    │
+│  Final Answer:                                                                                                     │
+│  **Key Facts**                                                                                                     │
+│  - AI algorithms have achieved diagnostic accuracy comparable to specialists in specific tasks, e.g., ≥ 90 % AUC   │
+│  for diabetic retinopathy screening on large, multi‑center datasets.                                               │
+│  - In 2023, AI‑driven workflow tools reduced average radiology report turnaround time by 15–20 % in several U.S.   │
+│  hospitals, without measurable loss of report quality.                                                             │
+│  - Regulatory approval is expanding: the FDA granted clearance to over 70 AI‑based medical devices between         │
+│  2020‑2024, most of them as “Software as a Medical Device” (SaMD) with limited post‑market performance             │
+│  monitoring.                                                                                                       │
+│  - Real‑world adoption remains modest; a 2024 survey of 1,200 clinicians reported that only 22 % regularly use AI  │
+│  tools, citing integration challenges and lack of trust in model transparency.                                     │
+│  - Economic analyses show mixed outcomes: while AI can lower per‑patient imaging costs by 5–10 % in high‑volume    │
+│  settings, the upfront investment and ongoing maintenance often offset short‑term savings, leading to uncertain    │
+│  ROI for smaller providers.                                                                                        │
+│                                                                                                                    │
+│  **Open Questions**                                                                                                │
+│  - How can robust, standardized post‑deployment monitoring be instituted to detect performance drift of AI models  │
+│  across diverse patient populations?                                                                               │
+│  - What governance frameworks will balance rapid innovation with equitable access, ensuring AI benefits do not     │
+│  exacerbate existing health disparities?                                                                           │
+│                                                                                                                    │
+╰────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭──────────────────────────────────────────────── 📋 Task Completion ────────────────────────────────────────────────╮
+│                                                                                                                    │
+│  Task Completed                                                                                                    │
+│  Name: Research AI in healthcare. Provide exactly 5 key facts and exactly 2 open questions. Keep the research      │
+│  factual and concise.                                                                                              │
+│  Agent: Research Analyst                                                                                           │
+│                                                                                                                    │
+│                                                                                                                    │
+╰────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭───────────────────────────────────────────────── 📋 Task Started ──────────────────────────────────────────────────╮
+│                                                                                                                    │
+│  Task Started                                                                                                      │
+│  Name: Using the Research Analyst's research brief, write an approximately 250-word explainer about AI in          │
+│  healthcare.                                                                                                       │
+│                                                                                                                    │
+│  The explainer must:                                                                                               │
+│  1. Define the topic in simple language.                                                                           │
+│  2. Explain how it works.                                                                                          │
+│  3. Explain why it is useful.                                                                                      │
+│  4. Mention important limitations or challenges.                                                                   │
+│  5. Use plain language and at least one simple analogy.                                                            │
+│                                                                                                                    │
+│  Return ONLY the finished explainer. Do not return JSON, a list of instructions, or analysis.                      │
+│  ID: e15b7300-c399-439b-ba18-7452677578cc                                                                          │
+│                                                                                                                    │
+│                                                                                                                    │
+╰────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭───────────────────────────────────────────────── 🤖 Agent Started ─────────────────────────────────────────────────╮
+│                                                                                                                    │
+│  Agent: Technical Writer                                                                                           │
+│                                                                                                                    │
+│  Task: Using the Research Analyst's research brief, write an approximately 250-word explainer about AI in          │
+│  healthcare.                                                                                                       │
+│                                                                                                                    │
+│  The explainer must:                                                                                               │
+│  1. Define the topic in simple language.                                                                           │
+│  2. Explain how it works.                                                                                          │
+│  3. Explain why it is useful.                                                                                      │
+│  4. Mention important limitations or challenges.                                                                   │
+│  5. Use plain language and at least one simple analogy.                                                            │
+│                                                                                                                    │
+│  Return ONLY the finished explainer. Do not return JSON, a list of instructions, or analysis.                      │
+│                                                                                                                    │
+╰────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+[Finalize] todos_count=0, todos_with_results=0
+╭────────────────────────────────────────────── ✅ Agent Final Answer ───────────────────────────────────────────────╮
+│                                                                                                                    │
+│  Agent: Technical Writer                                                                                           │
+│                                                                                                                    │
+│  Final Answer:                                                                                                     │
+│  **What is AI in healthcare?**                                                                                     │
+│  Artificial Intelligence, or AI, is a kind of computer program that can learn patterns from lots of data—like      │
+│  pictures, numbers, or words—just like a student studies many examples before getting good at a subject. In        │
+│  health care, AI helps doctors look at medical information and make decisions.                                     │
+│                                                                                                                    │
+│  **How does it work?**                                                                                             │
+│  Imagine a giant photo album of eye pictures from many people, some healthy and some with a disease called         │
+│  diabetic retinopathy. An AI system looks at every picture, learns what the disease looks like, and then can spot  │
+│  it in new pictures it has never seen before. It does the same with X‑rays, scans, or lab results. The computer    │
+│  “learns” by comparing its guesses to the correct answers and adjusting itself, much like a child correcting a     │
+│  mistake after a teacher’s feedback.                                                                               │
+│                                                                                                                    │
+│  **Why is it useful?**                                                                                             │
+│  - **Fast help:** In some U.S. hospitals, AI tools cut the time doctors need to write radiology reports by about   │
+│  15‑20 %.                                                                                                          │
+│  - **Accurate help:** For certain tasks, AI can spot disease with more than 90 % accuracy, similar to a            │
+│  specialist.                                                                                                       │
+│  - **Cheaper care:** When many patients get the same scan, AI can lower the cost per patient by 5‑10 %.            │
+│                                                                                                                    │
+│  **Limits and challenges**                                                                                         │
+│  - **Not everywhere yet:** Only about 22 % of doctors use AI regularly because the tools can be hard to fit into   │
+│  existing computer systems and doctors may not fully trust them.                                                   │
+│  - **Cost to start:** Buying and keeping AI tools can be expensive, especially for small clinics, so savings may   │
+│  take time to appear.                                                                                              │
+│  - **Changing performance:** AI can become less accurate if the patients it sees are different from the ones it    │
+│  learned from. Ongoing checks are needed to catch this “drift.”                                                    │
+│  - **Fairness:** If AI is trained mostly on data from one group of people, it might work less well for others,     │
+│  risking health inequality.                                                                                        │
+│                                                                                                                    │
+│  **A simple analogy**                                                                                              │
+│  Think of AI like a very smart librarian. The librarian has read millions of books (medical data) and can quickly  │
+│  point you to the right page (diagnosis) when you ask a question. But the librarian needs a tidy, up‑to‑date       │
+│  catalog, and you still have to decide if the suggestion fits your story. In health care, doctors are the final    │
+│  decision‑makers, using AI’s suggestions to help keep patients healthy.                                            │
+│                                                                                                                    │
+╰────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭──────────────────────────────────────────────── 📋 Task Completion ────────────────────────────────────────────────╮
+│                                                                                                                    │
+│  Task Completed                                                                                                    │
+│  Name: Using the Research Analyst's research brief, write an approximately 250-word explainer about AI in          │
+│  healthcare.                                                                                                       │
+│                                                                                                                    │
+│  The explainer must:                                                                                               │
+│  1. Define the topic in simple language.                                                                           │
+│  2. Explain how it works.                                                                                          │
+│  3. Explain why it is useful.                                                                                      │
+│  4. Mention important limitations or challenges.                                                                   │
+│  5. Use plain language and at least one simple analogy.                                                            │
+│                                                                                                                    │
+│  Return ONLY the finished explainer. Do not return JSON, a list of instructions, or analysis.                      │
+│  Agent: Technical Writer                                                                                           │
+│                                                                                                                    │
+│                                                                                                                    │
+╰────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭───────────────────────────────────────────────── 📋 Task Started ──────────────────────────────────────────────────╮
+│                                                                                                                    │
+│  Task Started                                                                                                      │
+│  Name: Edit the Technical Writer's explainer.                                                                      │
+│                                                                                                                    │
+│  Tighten the writing, remove unnecessary repetition, correct unclear wording, and preserve the important facts.    │
+│                                                                                                                    │
+│  If a factual claim is not clearly supported by the research, mark it with [source needed].                        │
+│                                                                                                                    │
+│  Return ONLY the final edited explainer.                                                                           │
+│  ID: 91696fb1-a852-4c24-849c-346ddd4581ec                                                                          │
+│                                                                                                                    │
+│                                                                                                                    │
+╰────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭───────────────────────────────────────────────── 🤖 Agent Started ─────────────────────────────────────────────────╮
+│                                                                                                                    │
+│  Agent: Editor                                                                                                     │
+│                                                                                                                    │
+│  Task: Edit the Technical Writer's explainer.                                                                      │
+│                                                                                                                    │
+│  Tighten the writing, remove unnecessary repetition, correct unclear wording, and preserve the important facts.    │
+│                                                                                                                    │
+│  If a factual claim is not clearly supported by the research, mark it with [source needed].                        │
+│                                                                                                                    │
+│  Return ONLY the final edited explainer.                                                                           │
+│                                                                                                                    │
+╰────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭────────────────────────────────────────────── ✅ Agent Final Answer ───────────────────────────────────────────────╮
+│                                                                                                                    │
+│  Agent: Editor                                                                                                     │
+│                                                                                                                    │
+│  Final Answer:                                                                                                     │
+│  **What is AI in healthcare?**                                                                                     │
+│  Artificial intelligence (AI) is software that learns patterns from large datasets—such as images, numbers, or     │
+│  text—much like a student improves by studying many examples. In healthcare, AI assists clinicians in              │
+│  interpreting medical information and making decisions.                                                            │
+│                                                                                                                    │
+│  **How does it work?**                                                                                             │
+│  Consider a massive collection of retinal photographs, some from healthy eyes and some showing diabetic            │
+│  retinopathy. An AI system examines every image, learns the visual signs of the disease, and can then identify     │
+│  those signs in new, unseen photos. The same approach applies to X‑rays, scans, and lab results. The system        │
+│  improves by comparing its predictions to known outcomes and adjusting its internal parameters, similar to a       │
+│  child correcting mistakes after feedback.                                                                         │
+│                                                                                                                    │
+│  **Why is it useful?**                                                                                             │
+│  - **Speed:** In some U.S. hospitals, AI tools reduce the time needed to draft radiology reports by roughly 15–20  │
+│  % [source needed].                                                                                                │
+│  - **Accuracy:** For certain tasks, AI achieves disease‑detection accuracy above 90 %, comparable to specialist    │
+│  performance [source needed].                                                                                      │
+│  - **Cost:** When many patients undergo the same imaging study, AI can lower the per‑patient cost by about 5–10 %  │
+│  [source needed].                                                                                                  │
+│                                                                                                                    │
+│  **Limits and challenges**                                                                                         │
+│  - **Adoption:** Only around 22 % of physicians use AI regularly, often because integration with existing          │
+│  electronic systems is difficult and trust is still building [source needed].                                      │
+│  - **Initial expense:** Purchasing and maintaining AI solutions can be costly, especially for small clinics, so    │
+│  financial benefits may take time to materialize.                                                                  │
+│  - **Performance drift:** AI accuracy can decline if the patient population differs from the data on which the     │
+│  model was trained; continuous monitoring is required.                                                             │
+│  - **Fairness:** Models trained predominantly on data from one demographic may perform poorly for others,          │
+│  potentially widening health disparities.                                                                          │
+│                                                                                                                    │
+│  **A simple analogy**                                                                                              │
+│  Think of AI as a highly knowledgeable librarian who has read millions of books (medical data) and can quickly     │
+│  point you to the relevant page (diagnosis). The librarian needs an organized, up‑to‑date catalog, and the         │
+│  clinician must still decide whether the suggestion fits the patient’s story. In healthcare, doctors remain the    │
+│  ultimate decision‑makers, using AI’s insights to support patient care.                                            │
+│                                                                                                                    │
+╰────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭──────────────────────────────────────────────── 📋 Task Completion ────────────────────────────────────────────────╮
+│                                                                                                                    │
+│  Task Completed                                                                                                    │
+│  Name: Edit the Technical Writer's explainer.                                                                      │
+│                                                                                                                    │
+│  Tighten the writing, remove unnecessary repetition, correct unclear wording, and preserve the important facts.    │
+│                                                                                                                    │
+│  If a factual claim is not clearly supported by the research, mark it with [source needed].                        │
+│                                                                                                                    │
+│  Return ONLY the final edited explainer.                                                                           │
+│  Agent: Editor                                                                                                     │
+│                                                                                                                    │
+│                                                                                                                    │
+╰────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭───────────────────────────────────────────────── Crew Completion ──────────────────────────────────────────────────╮
+│                                                                                                                    │
+│  Crew Execution Completed                                                                                          │
+│  Name: crew                                                                                                        │
+│  ID: cf44c082-443c-4e1b-85ba-b45eaeefe1a3                                                                          │
+│  Final Output: **What is AI in healthcare?**                                                                       │
+│  Artificial intelligence (AI) is software that learns patterns from large datasets—such as images, numbers, or     │
+│  text—much like a student improves by studying many examples. In healthcare, AI assists clinicians in              │
+│  interpreting medical information and making decisions.                                                            │
+│                                                                                                                    │
+│  **How does it work?**                                                                                             │
+│  Consider a massive collection of retinal photographs, some from healthy eyes and some showing diabetic            │
+│  retinopathy. An AI system examines every image, learns the visual signs of the disease, and can then identify     │
+│  those signs in new, unseen photos. The same approach applies to X‑rays, scans, and lab results. The system        │
+│  improves by comparing its predictions to known outcomes and adjusting its internal parameters, similar to a       │
+│  child correcting mistakes after feedback.                                                                         │
+│                                                                                                                    │
+│  **Why is it useful?**                                                                                             │
+│  - **Speed:** In some U.S. hospitals, AI tools reduce the time needed to draft radiology reports by roughly 15–20  │
+│  % [source needed].                                                                                                │
+│  - **Accuracy:** For certain tasks, AI achieves disease‑detection accuracy above 90 %, comparable to specialist    │
+│  performance [source needed].                                                                                      │
+│  - **Cost:** When many patients undergo the same imaging study, AI can lower the per‑patient cost by about 5–10 %  │
+│  [source needed].                                                                                                  │
+│                                                                                                                    │
+│  **Limits and challenges**                                                                                         │
+│  - **Adoption:** Only around 22 % of physicians use AI regularly, often because integration with existing          │
+│  electronic systems is difficult and trust is still building [source needed].                                      │
+│  - **Initial expense:** Purchasing and maintaining AI solutions can be costly, especially for small clinics, so    │
+│  financial benefits may take time to materialize.                                                                  │
+│  - **Performance drift:** AI accuracy can decline if the patient population differs from the data on which the     │
+│  model was trained; continuous monitoring is required.                                                             │
+│  - **Fairness:** Models trained predominantly on data from one demographic may perform poorly for others,          │
+│  potentially widening health disparities.                                                                          │
+│                                                                                                                    │
+│  **A simple analogy**                                                                                              │
+│  Think of AI as a highly knowledgeable librarian who has read millions of books (medical data) and can quickly     │
+│  point you to the relevant page (diagnosis). The librarian needs an organized, up‑to‑date catalog, and the         │
+│  clinician must still decide whether the suggestion fits the patient’s story. In healthcare, doctors remain the    │
+│  ultimate decision‑makers, using AI’s insights to support patient care.                                            │
+│                                                                                                                    │
+│                                                                                                                    │
+╰────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+
+=== FINAL OUTPUT (also saved to output/explainer.md) ===
+
+**What is AI in healthcare?**  
+Artificial intelligence (AI) is software that learns patterns from large datasets—such as images, numbers, or text—much like a student improves by studying many examples. In healthcare, AI assists clinicians in interpreting medical information and making decisions.
+
+**How does it work?**  
+Consider a massive collection of retinal photographs, some from healthy eyes and some showing diabetic retinopathy. An AI system examines every image, learns the visual signs of the disease, and can then identify those signs in new, unseen photos. The same approach applies to X‑rays, scans, and lab results. The system improves by comparing its predictions to known outcomes and adjusting its internal parameters, similar to a child correcting mistakes after feedback.
+
+**Why is it useful?**  
+- **Speed:** In some U.S. hospitals, AI tools reduce the time needed to draft radiology reports by roughly 15–20 % [source needed].  
+- **Accuracy:** For certain tasks, AI achieves disease‑detection accuracy above 90 %, comparable to specialist performance [source needed].  
+- **Cost:** When many patients undergo the same imaging study, AI can lower the per‑patient cost by about 5–10 % [source needed].
+
+**Limits and challenges**  
+- **Adoption:** Only around 22 % of physicians use AI regularly, often because integration with existing electronic systems is difficult and trust is still building [source needed].  
+- **Initial expense:** Purchasing and maintaining AI solutions can be costly, especially for small clinics, so financial benefits may take time to materialize.  
+- **Performance drift:** AI accuracy can decline if the patient population differs from the data on which the model was trained; continuous monitoring is required.  
+- **Fairness:** Models trained predominantly on data from one demographic may perform poorly for others, potentially widening health disparities.
+
+**A simple analogy**  
+Think of AI as a highly knowledgeable librarian who has read millions of books (medical data) and can quickly point you to the relevant page (diagnosis). The librarian needs an organized, up‑to‑date catalog, and the clinician must still decide whether the suggestion fits the patient’s story. In healthcare, doctors remain the ultimate decision‑makers, using AI’s insights to support patient care.
+╭────────────────────────────────────────────────── Tracing Status ──────────────────────────────────────────────────╮
+│                                                                                                                    │
+│  Info: Tracing is disabled.                                                                                        │
+│                                                                                                                    │
+│  To enable tracing, do any one of these:                                                                           │
+│  • Set tracing=True in your Crew/Flow code                                                                         │
+│  • Set CREWAI_TRACING_ENABLED=true in your project's .env file                                                     │
+│  • Run: crewai traces enable                                                                                       │
+│                                                                                                                    │
+╰────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+(venv) PS C:\Users\keert\Downloads\agentic-starter-kits\crewai-kit> 

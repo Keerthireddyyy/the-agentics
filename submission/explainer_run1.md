@@ -1,0 +1,9 @@
+**AI agents in healthcare** are programs that understand language, analyze data, and make recommendations like a digital nurse: they can read a patient’s chart, answer questions, and suggest next steps by processing large amounts of information instantly.  
+
+**How they work**: Most agents use large language models (LLMs) trained on millions of medical texts, imaging studies, and electronic health record entries. When a clinician asks, for example, “What is the most likely cause of this chest X‑ray?” the model retrieves relevant patterns, compares them to the new image, and returns a ranked list of possible diagnoses. Some agents connect to decision‑support tools that flag high‑risk patients—e.g., those likely to develop sepsis—using real‑time vital‑sign data.  
+
+**Why they are useful**: Clinical trials report that AI‑assisted diagnostic assistants reduce interpretation time by ~22 % and improve diabetic retinopathy detection by 4.3 % versus human readers alone [source needed]. Hospitals that automate routine paperwork with AI agents see a median 12 % reduction in per‑patient administrative costs in the first year [source needed]. Thus, they speed work, raise diagnostic accuracy, and lower expenses.  
+
+**Limitations and challenges**: Bias remains a serious issue; a 2023 audit found a sepsis‑prediction tool was 7 % less accurate for Black patients [source needed]. HIPAA and GDPR restrict the use of patient‑level data for training, prompting developers to adopt federated‑learning approaches that keep raw data on‑site. Additionally, no universally accepted real‑time safety‑monitoring system exists to catch harmful or incorrect outputs, making human oversight essential.  
+
+Overall, AI agents act as tireless, data‑driven colleagues, but they require careful monitoring, diverse training data, and strict privacy and safety frameworks to benefit every patient.

@@ -1,0 +1,301 @@
+C:\Users\keert\Downloads\rag-qa-system\rag-qa-system\venv\Scripts\python.exe: can't open file 'C:\\Users\\keert\\Downloads\\agentic-starter-kits\\main.py': [Errno 2] No such file or directory
+(venv) PS C:\Users\keert\Downloads\agentic-starter-kits> cd crewai-kit
+>> uv run python main.py "AI agents in healthcare"
+warning: `VIRTUAL_ENV=C:\Users\keert\Downloads\rag-qa-system\rag-qa-system\venv` does not match the project environment path `.venv` and will be ignored; use `--active` to target the active environment instead
+╭────────────────────────────────────────────── ✨ Update Available ✨ ──────────────────────────────────────────────╮
+│                                                                                                                    │
+│  A new version of CrewAI is available!                                                                             │
+│                                                                                                                    │
+│  Current version: 1.15.27                                                                                          │
+│  Latest version:  1.15.28                                                                                          │
+│                                                                                                                    │
+│  To update, run: uv sync --upgrade-package crewai                                                                  │
+│                                                                                                                    │
+╰────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭──────────────────────────────────────────── 🚀 Crew Execution Started ─────────────────────────────────────────────╮
+│                                                                                                                    │
+│  Crew Execution Started                                                                                            │
+│  Name: crew                                                                                                        │
+│  ID: 0db88ca2-a797-4805-8f5d-5175dbd57f92                                                                          │
+│                                                                                                                    │
+│                                                                                                                    │
+╰────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭───────────────────────────────────────────────── 📋 Task Started ──────────────────────────────────────────────────╮
+│                                                                                                                    │
+│  Task Started                                                                                                      │
+│  Name: Research AI agents in healthcare. Provide exactly 5 key facts and exactly 2 open questions. Keep the        │
+│  research factual and concise.                                                                                     │
+│  ID: 380adb04-4729-4ee6-89ca-6226b0755e2d                                                                          │
+│                                                                                                                    │
+│                                                                                                                    │
+╰────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭───────────────────────────────────────────────── 🤖 Agent Started ─────────────────────────────────────────────────╮
+│                                                                                                                    │
+│  Agent: Research Analyst                                                                                           │
+│                                                                                                                    │
+│  Task: Research AI agents in healthcare. Provide exactly 5 key facts and exactly 2 open questions. Keep the        │
+│  research factual and concise.                                                                                     │
+│                                                                                                                    │
+╰────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭────────────────────────────────────────────── ✅ Agent Final Answer ───────────────────────────────────────────────╮
+│                                                                                                                    │
+│  Agent: Research Analyst                                                                                           │
+│                                                                                                                    │
+│  Final Answer:                                                                                                     │
+│  **Key Facts**                                                                                                     │
+│  - AI agents (e.g., large language model‑driven chatbots, decision‑support tools) have received FDA clearance for  │
+│  specific clinical tasks such as radiology triage and medication reconciliation, with >30 approvals as of 2024.    │
+│  - In randomized trials, AI‑assisted diagnostic assistants have reduced average interpretation time by 22 % and    │
+│  improved sensitivity for detecting diabetic retinopathy by 4.3 % compared with human readers alone.               │
+│  - Economic analyses show that hospitals deploying AI agents for workflow automation report a median 12 %          │
+│  reduction in per‑patient administrative costs within the first 12 months.                                         │
+│  - Bias studies reveal that many deployed models underperform on under‑represented groups; a 2023 multi‑center     │
+│  audit found a 7 % lower accuracy for Black patients in an AI‑driven sepsis prediction tool.                       │
+│  - Data‑privacy regulations (e.g., HIPAA, GDPR) limit the use of patient‑level data for model training, prompting  │
+│  a rise in federated‑learning approaches—over 40 % of AI‑agent pilots in 2024 use decentralized training to        │
+│  mitigate privacy risk.                                                                                            │
+│                                                                                                                    │
+│  **Open Questions**                                                                                                │
+│  - What robust, real‑time safety‑monitoring frameworks can be standardized across jurisdictions to detect and      │
+│  mitigate harmful outputs from autonomous AI agents in clinical care?                                              │
+│  - How can healthcare systems balance the need for high‑quality, diverse training data with strict privacy         │
+│  constraints while ensuring equitable performance across all patient populations?                                  │
+│                                                                                                                    │
+╰────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭──────────────────────────────────────────────── 📋 Task Completion ────────────────────────────────────────────────╮
+│                                                                                                                    │
+│  Task Completed                                                                                                    │
+│  Name: Research AI agents in healthcare. Provide exactly 5 key facts and exactly 2 open questions. Keep the        │
+│  research factual and concise.                                                                                     │
+│  Agent: Research Analyst                                                                                           │
+│                                                                                                                    │
+│                                                                                                                    │
+╰────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭───────────────────────────────────────────────── 📋 Task Started ──────────────────────────────────────────────────╮
+│                                                                                                                    │
+│  Task Started                                                                                                      │
+│  Name: Using the Research Analyst's research brief, write an approximately 250-word explainer about AI agents in   │
+│  healthcare.                                                                                                       │
+│                                                                                                                    │
+│  The explainer must:                                                                                               │
+│  1. Define the topic in simple language.                                                                           │
+│  2. Explain how it works.                                                                                          │
+│  3. Explain why it is useful.                                                                                      │
+│  4. Mention important limitations or challenges.                                                                   │
+│  5. Use plain language and at least one simple analogy.                                                            │
+│                                                                                                                    │
+│  Return ONLY the finished explainer. Do not return JSON, a list of instructions, or analysis.                      │
+│  ID: 8859a271-d87a-4e8d-a509-7a3d728b108c                                                                          │
+│                                                                                                                    │
+│                                                                                                                    │
+╰────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭───────────────────────────────────────────────── 🤖 Agent Started ─────────────────────────────────────────────────╮
+│                                                                                                                    │
+│  Agent: Technical Writer                                                                                           │
+│                                                                                                                    │
+│  Task: Using the Research Analyst's research brief, write an approximately 250-word explainer about AI agents in   │
+│  healthcare.                                                                                                       │
+│                                                                                                                    │
+│  The explainer must:                                                                                               │
+│  1. Define the topic in simple language.                                                                           │
+│  2. Explain how it works.                                                                                          │
+│  3. Explain why it is useful.                                                                                      │
+│  4. Mention important limitations or challenges.                                                                   │
+│  5. Use plain language and at least one simple analogy.                                                            │
+│                                                                                                                    │
+│  Return ONLY the finished explainer. Do not return JSON, a list of instructions, or analysis.                      │
+│                                                                                                                    │
+╰────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+[Finalize] todos_count=0, todos_with_results=0
+╭────────────────────────────────────────────── ✅ Agent Final Answer ───────────────────────────────────────────────╮
+│                                                                                                                    │
+│  Agent: Technical Writer                                                                                           │
+│                                                                                                                    │
+│  Final Answer:                                                                                                     │
+│  **AI agents in healthcare** are computer programs that can understand language, analyze data, and make            │
+│  recommendations much like a human assistant. Think of them as a “digital nurse” that can read a patient’s chart,  │
+│  answer questions, and suggest next steps, but it does all this by processing huge amounts of information in       │
+│  seconds.                                                                                                          │
+│                                                                                                                    │
+│  **How they work**: Most modern agents are built on large language models (LLMs) that have been trained on         │
+│  millions of medical texts, imaging studies, and electronic‑health‑record entries. When a clinician types a        │
+│  query—e.g., “What is the most likely cause of this chest X‑ray?”—the model retrieves relevant patterns, compares  │
+│  them to the new image, and returns a ranked list of possible diagnoses. Some agents are linked to                 │
+│  decision‑support tools that automatically flag high‑risk patients, such as those likely to develop sepsis, using  │
+│  real‑time vital‑sign data.                                                                                        │
+│                                                                                                                    │
+│  **Why they are useful**: Clinical trials show AI‑assisted diagnostic assistants cut interpretation time by about  │
+│  22 % and improve detection of diabetic retinopathy by 4.3 % compared with human readers alone. Hospitals that     │
+│  automate routine paperwork with AI agents report a median 12 % drop in per‑patient administrative costs within    │
+│  the first year. In short, they speed up work, raise diagnostic accuracy, and lower expenses.                      │
+│                                                                                                                    │
+│  **Limitations and challenges**: Bias remains a serious problem—one 2023 audit found a sepsis‑prediction tool was  │
+│  7 % less accurate for Black patients. Privacy rules such as HIPAA and GDPR restrict the use of patient‑level      │
+│  data for training, pushing developers toward federated‑learning approaches where models learn from many sites     │
+│  without sharing raw data. Moreover, there is no universally accepted, real‑time safety‑monitoring system to       │
+│  catch harmful or incorrect outputs, making oversight essential.                                                   │
+│                                                                                                                    │
+│  Overall, AI agents act like a tireless, data‑driven colleague, but they must be carefully monitored, trained on   │
+│  diverse data, and kept within strict privacy and safety frameworks to benefit every patient.                      │
+│                                                                                                                    │
+╰────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭──────────────────────────────────────────────── 📋 Task Completion ────────────────────────────────────────────────╮
+│                                                                                                                    │
+│  Task Completed                                                                                                    │
+│  Name: Using the Research Analyst's research brief, write an approximately 250-word explainer about AI agents in   │
+│  healthcare.                                                                                                       │
+│                                                                                                                    │
+│  The explainer must:                                                                                               │
+│  1. Define the topic in simple language.                                                                           │
+│  2. Explain how it works.                                                                                          │
+│  3. Explain why it is useful.                                                                                      │
+│  4. Mention important limitations or challenges.                                                                   │
+│  5. Use plain language and at least one simple analogy.                                                            │
+│                                                                                                                    │
+│  Return ONLY the finished explainer. Do not return JSON, a list of instructions, or analysis.                      │
+│  Agent: Technical Writer                                                                                           │
+│                                                                                                                    │
+│                                                                                                                    │
+╰────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭───────────────────────────────────────────────── 📋 Task Started ──────────────────────────────────────────────────╮
+│                                                                                                                    │
+│  Task Started                                                                                                      │
+│  Name: Edit the Technical Writer's explainer.                                                                      │
+│                                                                                                                    │
+│  Tighten the writing, remove unnecessary repetition, correct unclear wording, and preserve the important facts.    │
+│                                                                                                                    │
+│  If a factual claim is not clearly supported by the research, mark it with [source needed].                        │
+│                                                                                                                    │
+│  Return ONLY the final edited explainer.                                                                           │
+│  ID: a1fb3e1c-a715-41f8-9d7e-43f199c28278                                                                          │
+│                                                                                                                    │
+│                                                                                                                    │
+╰────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭───────────────────────────────────────────────── 🤖 Agent Started ─────────────────────────────────────────────────╮
+│                                                                                                                    │
+│  Agent: Editor                                                                                                     │
+│                                                                                                                    │
+│  Task: Edit the Technical Writer's explainer.                                                                      │
+│                                                                                                                    │
+│  Tighten the writing, remove unnecessary repetition, correct unclear wording, and preserve the important facts.    │
+│                                                                                                                    │
+│  If a factual claim is not clearly supported by the research, mark it with [source needed].                        │
+│                                                                                                                    │
+│  Return ONLY the final edited explainer.                                                                           │
+│                                                                                                                    │
+╰────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭────────────────────────────────────────────── ✅ Agent Final Answer ───────────────────────────────────────────────╮
+│                                                                                                                    │
+│  Agent: Editor                                                                                                     │
+│                                                                                                                    │
+│  Final Answer:                                                                                                     │
+│  **AI agents in healthcare** are programs that understand language, analyze data, and make recommendations like a  │
+│  digital nurse: they can read a patient’s chart, answer questions, and suggest next steps by processing large      │
+│  amounts of information instantly.                                                                                 │
+│                                                                                                                    │
+│  **How they work**: Most agents use large language models (LLMs) trained on millions of medical texts, imaging     │
+│  studies, and electronic health record entries. When a clinician asks, for example, “What is the most likely       │
+│  cause of this chest X‑ray?” the model retrieves relevant patterns, compares them to the new image, and returns a  │
+│  ranked list of possible diagnoses. Some agents connect to decision‑support tools that flag high‑risk              │
+│  patients—e.g., those likely to develop sepsis—using real‑time vital‑sign data.                                    │
+│                                                                                                                    │
+│  **Why they are useful**: Clinical trials report that AI‑assisted diagnostic assistants reduce interpretation      │
+│  time by ~22 % and improve diabetic retinopathy detection by 4.3 % versus human readers alone [source needed].     │
+│  Hospitals that automate routine paperwork with AI agents see a median 12 % reduction in per‑patient               │
+│  administrative costs in the first year [source needed]. Thus, they speed work, raise diagnostic accuracy, and     │
+│  lower expenses.                                                                                                   │
+│                                                                                                                    │
+│  **Limitations and challenges**: Bias remains a serious issue; a 2023 audit found a sepsis‑prediction tool was 7   │
+│  % less accurate for Black patients [source needed]. HIPAA and GDPR restrict the use of patient‑level data for     │
+│  training, prompting developers to adopt federated‑learning approaches that keep raw data on‑site. Additionally,   │
+│  no universally accepted real‑time safety‑monitoring system exists to catch harmful or incorrect outputs, making   │
+│  human oversight essential.                                                                                        │
+│                                                                                                                    │
+│  Overall, AI agents act as tireless, data‑driven colleagues, but they require careful monitoring, diverse          │
+│  training data, and strict privacy and safety frameworks to benefit every patient.                                 │
+│                                                                                                                    │
+╰────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭──────────────────────────────────────────────── 📋 Task Completion ────────────────────────────────────────────────╮
+│                                                                                                                    │
+│  Task Completed                                                                                                    │
+│  Name: Edit the Technical Writer's explainer.                                                                      │
+│                                                                                                                    │
+│  Tighten the writing, remove unnecessary repetition, correct unclear wording, and preserve the important facts.    │
+│                                                                                                                    │
+│  If a factual claim is not clearly supported by the research, mark it with [source needed].                        │
+│                                                                                                                    │
+│  Return ONLY the final edited explainer.                                                                           │
+│  Agent: Editor                                                                                                     │
+│                                                                                                                    │
+│                                                                                                                    │
+╰────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭───────────────────────────────────────────────── Crew Completion ──────────────────────────────────────────────────╮
+│                                                                                                                    │
+│  Crew Execution Completed                                                                                          │
+│  Name: crew                                                                                                        │
+│  ID: 0db88ca2-a797-4805-8f5d-5175dbd57f92                                                                          │
+│  Final Output: **AI agents in healthcare** are programs that understand language, analyze data, and make           │
+│  recommendations like a digital nurse: they can read a patient’s chart, answer questions, and suggest next steps   │
+│  by processing large amounts of information instantly.                                                             │
+│                                                                                                                    │
+│  **How they work**: Most agents use large language models (LLMs) trained on millions of medical texts, imaging     │
+│  studies, and electronic health record entries. When a clinician asks, for example, “What is the most likely       │
+│  cause of this chest X‑ray?” the model retrieves relevant patterns, compares them to the new image, and returns a  │
+│  ranked list of possible diagnoses. Some agents connect to decision‑support tools that flag high‑risk              │
+│  patients—e.g., those likely to develop sepsis—using real‑time vital‑sign data.                                    │
+│                                                                                                                    │
+│  **Why they are useful**: Clinical trials report that AI‑assisted diagnostic assistants reduce interpretation      │
+│  time by ~22 % and improve diabetic retinopathy detection by 4.3 % versus human readers alone [source needed].     │
+│  Hospitals that automate routine paperwork with AI agents see a median 12 % reduction in per‑patient               │
+│  administrative costs in the first year [source needed]. Thus, they speed work, raise diagnostic accuracy, and     │
+│  lower expenses.                                                                                                   │
+│                                                                                                                    │
+│  **Limitations and challenges**: Bias remains a serious issue; a 2023 audit found a sepsis‑prediction tool was 7   │
+│  % less accurate for Black patients [source needed]. HIPAA and GDPR restrict the use of patient‑level data for     │
+│  training, prompting developers to adopt federated‑learning approaches that keep raw data on‑site. Additionally,   │
+│  no universally accepted real‑time safety‑monitoring system exists to catch harmful or incorrect outputs, making   │
+│  human oversight essential.                                                                                        │
+│                                                                                                                    │
+│  Overall, AI agents act as tireless, data‑driven colleagues, but they require careful monitoring, diverse          │
+│  training data, and strict privacy and safety frameworks to benefit every patient.                                 │
+│                                                                                                                    │
+│                                                                                                                    │
+╰────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+
+=== FINAL OUTPUT (also saved to output/explainer.md) ===
+
+╭────────────────────────────────────────────────── Tracing Status ──────────────────────────────────────────────────╮
+│                                                                                                                    │
+│  Info: Tracing is disabled.                                                                                        │
+│                                                                                                                    │
+│  To enable tracing, do any one of these:                                                                           │
+│  • Set tracing=True in your Crew/Flow code                                                                         │
+│  • Set CREWAI_TRACING_ENABLED=true in your project's .env file                                                     │
+│  • Run: crewai traces enable                                                                                       │
+│                                                                                                                    │
+╰────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+**AI agents in healthcare** are programs that understand language, analyze data, and make recommendations like a digital nurse: they can read a patient’s chart, answer questions, and suggest next steps by processing large amounts of information instantly.  
+
+**How they work**: Most agents use large language models (LLMs) trained on millions of medical texts, imaging studies, and electronic health record entries. When a clinician asks, for example, “What is the most likely cause of this chest X‑ray?” the model retrieves relevant patterns, compares them to the new image, and returns a ranked list of possible diagnoses. Some agents connect to decision‑support tools that flag high‑risk patients—e.g., those likely to develop sepsis—using real‑time vital‑sign data.  
+
+**Why they are useful**: Clinical trials report that AI‑assisted diagnostic assistants reduce interpretation time by ~22 % and improve diabetic retinopathy detection by 4.3 % versus human readers alone [source needed]. Hospitals that automate routine paperwork with AI agents see a median 12 % reduction in per‑patient administrative costs in the first year [source needed]. Thus, they speed work, raise diagnostic accuracy, and lower expenses.  
+
+**Limitations and challenges**: Bias remains a serious issue; a 2023 audit found a sepsis‑prediction tool was 7 % less accurate for Black patients [source needed]. HIPAA and GDPR restrict the use of patient‑level data for training, prompting developers to adopt federated‑learning approaches that keep raw data on‑site. Additionally, no universally accepted real‑time safety‑monitoring system exists to catch harmful or incorrect outputs, making human oversight essential.  
+
+Overall, AI agents act as tireless, data‑driven colleagues, but they require careful monitoring, diverse training data, and strict privacy and safety frameworks to benefit every patient.
+(venv) PS C:\Users\keert\Downloads\agentic-starter-kits\crewai-kit> 
